@@ -1,0 +1,103 @@
+/*
+Author: Nicholas Clifford
+Date: 6/15/2024
+*/
+
+html {
+    background-color: #364156;
+}
+
+body {
+    background-color: #ffecd1;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 15px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: cursive, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    border-bottom: solid 4px #364156;
+}
+
+article h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left: 40px;
+    font-size: larger;
+}
+
+nav ul li {
+    list-style-type: none;
+    color: black;
+    margin-top: 5px;
+}
+
+li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li a:hover {
+    color: #de6e4b;
+}
+
+div.scroll-container {
+    background-color: #c57b57;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+
+article img {
+    float: right;
+    border: solid black;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+body h2 {
+    margin-right: 500px;
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+    font-size: larger;
+    font-family: fantasy, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 500px;
+    border: #364156;
+    background-color: #c57b57;
+    border: solid 5px #364156;
+    border-radius: 15px;
+}
+
+
+footer {
+    text-align: center;
+    border-top: solid #364156;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #de6e4b;
+}
